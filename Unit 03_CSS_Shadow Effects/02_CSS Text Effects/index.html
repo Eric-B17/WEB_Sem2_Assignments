@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <Style>
+p.test1 {
+  white-space: nowrap;
+  width: 130px;
+  border: 1px solid #000000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-shadow: 0 0 3px #0b0099;
+}
+div.test2 {
+  white-space: nowrap; 
+  width: 109px; 
+  overflow: hidden; 
+  border: 1px solid #000000;
+}
+div.test2:hover {
+  overflow: visible;
+}
+p.test3 {
+  writing-mode: vertical-rl;
+  font-weight: bold; 
+}
+
+</Style>
+</head>
+<body>
+<h1>The password</h1>
+<p class="test1">The password is something that I forgot, woops.</p>
+
+<h2>The real password</h2>
+<div class="test2" style="text-overflow:clip;">The password is something in an old, forgotten language that no one remembers.</div>
+
+<h3>Something, I guess</h3>
+<p class="test3">This is just for me to put here because I'm out of ideas for said something.</p>
+
+</body>
+</html>
