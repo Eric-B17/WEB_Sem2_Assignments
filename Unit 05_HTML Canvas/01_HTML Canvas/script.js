@@ -45,3 +45,15 @@ function drawLine() {
     // Stroke it (Do the Drawing)
     ctx.stroke();
 }
+
+function drawCircGrad() {
+
+}
+
+
+
+
+
+function drawImage() {
+
+}
