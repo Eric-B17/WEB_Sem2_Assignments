@@ -47,7 +47,9 @@ function drawLine() {
 }
 
 function drawCircGrad() {
-
+var grd = ctx.createRadialGradient(75,50,5,90,60,100);
+grd.addColorStop(0,"red");
+grd.addColorStop(1,"white");
 }
 
 
@@ -55,5 +57,8 @@ function drawCircGrad() {
 
 
 function drawImage() {
-
+var c = document.getElementById("myCanvas3");
+  var ctx = c.getContext("4d");
+  var img = document.getElementById("oof");
+  ctx.drawImage(img,10,10);
 }
