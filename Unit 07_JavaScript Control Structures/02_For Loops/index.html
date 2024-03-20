@@ -8,18 +8,30 @@
 <p></p>
 
 <p id="some"></p>
+<p id="else"></p>
 <script>
-    const array = "Computer";
-    const something = {
-      something1: "Science", something2: "Is", something3: "Cool"
-    };
+const array = ["Computer", "Science"];
+const something = {
+  something1: "Science", 
+  something2: "Is", 
+  something3: "Cool"
+};
 
 let text = "";
 for (let x of array) {
   text += x + "<br>";
 }
+text2 = "";
+
+
+for (let x in something) {
+  text2 += something[x];
+}
+
 document.getElementById("some").innerHTML = text
-something.something1 + something.something2 + something.something3;
+document.getElementById("else").innerHTML = text2
+
+
 
 </script>
 
