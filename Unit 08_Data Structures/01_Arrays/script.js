@@ -1,4 +1,4 @@
-const numbers = []
+const numbers = [];
 
 for(let i = 0; i < 10; i++){
     let num = Math.floor(Math.random() * 10) + 1;
@@ -7,12 +7,11 @@ for(let i = 0; i < 10; i++){
     }
 
 }
-
-
 document.getElementById("unsorted").innerHTML = numbers;
 numbers.sort(function(a, b){return b - a});
-const numbers = [10 + 1];
+// const numbers = [10 + 1];
 document.getElementById("sorted").innerHTML = numbers;
+print
 
 
 
