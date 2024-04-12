@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    body{
+        background-color: maroon;
+    }
+.Space {overflow: hidden;}
+
+#main {margin-left: 4px;}
+
+#thebar {
+  float: none;
+  width: auto;
+}
+
+#barlist {
+  margin: 0;
+  padding: 0;
+}
+
+.baritem {
+  background: #beee80;
+  border: 1px solid #0c0202;
+  border-radius: 100px;
+  list-style-type: none;
+  margin: 100px;
+  padding: 30px;
+  font-size: large;
+}
+
+@media screen and (min-width: 700px) {
+  #thebar {width: 550px; float: center;}
+  #main {margin-right: 446px;}
+  body{
+    background-color: saddlebrown;
+  }
+  
+}
+</style>
+</head>
+<body>
+
+<div class="Space">
+  <div id="thebar">
+    <ul id="barlist">
+      <li class="baritem">Something1</li>
+      <li class="baritem">Something2</li>
+      <li class="baritem">Something3</li>
+      <li class="baritem">Something4</li>
+    </ul>
+  </div>
+
+</body>
+</html>
+
+
