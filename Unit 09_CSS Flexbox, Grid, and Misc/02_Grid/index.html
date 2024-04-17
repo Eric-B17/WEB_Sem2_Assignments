@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  display: grid;
+  row-gap: 50px;
+  grid-template-columns: auto auto auto;
+  background-color: #bd6908;
+  padding: 10px;
+}
+
+.placement {
+  background-color: rgba(243, 213, 41, 0.384);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.container2 {
+  display: grid;
+  row-gap: 50px;
+  grid-template-columns: auto auto auto;
+  background-color: #0a165c;
+  padding: 10px;
+}
+
+.container2 > div {
+  background-color: #880a0a;
+  text-align: center;
+  padding: 50px 0;
+  font-size: 30px;
+}
+
+.placement2 {
+    grid-row-start: 1;
+    grid-row-end: 8;
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="placement">1</div>
+  <div class="placement">2</div>
+  <div class="placement">3</div>  
+  <div class="placement">4</div>
+  <div class="placement">5</div>
+  <div class="placement">6</div>
+</div>
+
+<div class="container2">
+    <div class="placement2">1</div>
+    <div class="placement2">2</div>
+    <div class="placement">3</div>  
+    <div class="placement">4</div>
+  </div>
+
+</body>
+</html>
